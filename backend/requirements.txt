@@ -1,0 +1,6 @@
+python-docx
+easyocr
+django 
+djangorestframework
+pypdf
+langchain_openai
