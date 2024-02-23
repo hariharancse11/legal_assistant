@@ -1,7 +1,8 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
+from django.conf import settings
 
-llm = ChatOpenAI(openai_api_key='YOUR-OPENAI-API-KEY')
+llm = ChatOpenAI(openai_api_key=settings.API_KEY)
 def bill_summerizer(text):
     prompt = ChatPromptTemplate.from_messages([
         ('system','you are an expert in summerizing the medical bills and deposition along with informations like amounts, treatments under 100 words. nothing else'),
