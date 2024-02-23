@@ -6,3 +6,4 @@ pypdf
 langchain_openai
 python-decouple
 gunicorn
+django-cors-headers
