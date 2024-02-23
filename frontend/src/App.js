@@ -3,7 +3,6 @@ import "./styles.css";
 // import SignInForm from "./components/SignIn";
 import SignUpForm from "./components/SignUp";
 import Together from "./components/Together";
-import { Document } from 'docx';
 
 export default function App() {
   const [type, setType] = useState("signIn");
@@ -23,7 +22,6 @@ export default function App() {
       email: "",
       password: ""
     });
-    const doc = new Document();
     const [loggedIn, setLoggedIn] = useState(false);
     const handleChange = evt => {
       const value = evt.target.value;
