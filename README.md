@@ -1,3 +1,3 @@
 Welcome to Our Legal Assistant
 Solutions for your legal and medical documentation needs
-![Alt Text](screenshots/login.jpg)
+![Alt Text](screenshots/login.png)
