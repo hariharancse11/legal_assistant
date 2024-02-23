@@ -26,6 +26,7 @@ function Together(props) {
     <Router>
       <div className="container">
         <nav className="sidebar">
+          <h4>Legal Assistant</h4>
           <ul>
             <li>
               <Link to="/">Home</Link>
