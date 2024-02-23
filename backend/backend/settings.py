@@ -128,3 +128,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+from decouple import config
+
+# Load API key from environment variables
+API_KEY = config('API_KEY')
