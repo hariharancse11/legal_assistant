@@ -1,0 +1,169 @@
+/* App.css */
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40%;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    margin-bottom: 4vh;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar li a:hover {
+    color: #666;
+    text-shadow: 0 0 10px #666; /* Change color to the desired glowing effect */
+    font-size: 15px;
+
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .user-icon {
+    text-align: right;
+    border-radius: 50%;
+      border-color: black;
+      border-width: 2px; 
+  }
+
+  .user-avatar {
+      width: 7%; 
+      height: 7%;
+      background-color: #bbb; /* Placeholder color for the avatar */
+      margin-bottom: -4vh;
+  }
+
+  .user-avatar:hover{
+    width: 8%; 
+      height: 8%;
+  }
+
+  .changepassword input {
+    height: 5vh;
+    width: 75vh;
+  }
+
+  .changepassword label p{
+    text-align: left;
+  }
+
+
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* adjust as needed */
+    width: 300px; /* adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  
+  .user {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-input button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .subtle-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3vh;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-right: 2vh;
+  }
+  
+  
+  .hero-container {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+  }
+  
+  .service {
+    width: 25%;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .service:hover {
+    box-shadow: 0 0 10px #ff4b2b; /* Change color to the desired glowing effect */
+  }
+  
+  .service h2 {
+    color: #333;
+  }
+  
+  .service p {
+    color: #666;
+  }
+  
