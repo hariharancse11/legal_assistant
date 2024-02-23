@@ -2,7 +2,7 @@ python-docx
 easyocr
 django 
 djangorestframework
-pypdf
+pypdf2
 langchain_openai
 python-decouple
 gunicorn
